@@ -1,13 +1,18 @@
 
 import './App.css';
+import Nav from './Components/NavBar/Nav';
+import QueryDropdown from './Components/Query/QueryDropdown';
 
-import XboxTv from './Components/TV/XboxTv';
+
+
+
+
 
 function App() {
   return (
     <>
   
-    <XboxTv/>
+    <QueryDropdown/>
     </>
   
   );
