@@ -13,6 +13,11 @@ function Footer() {
         <li>Investor Relations</li>
         <li>Privacy</li>
         <li>Speed Test</li>
+        <div className='flex gap-2 px-[50px] ' >
+                <select className='border border-gray-600 bg-black px-3 '>
+                    <option>English</option>
+                    <option>Hindi</option>
+                </select> </div>
         <li>Netflix India</li>
       </ul>
 
